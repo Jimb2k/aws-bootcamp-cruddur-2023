@@ -75,3 +75,13 @@ The solution was to update the Gitpod permissions to access Github
 ![updating gitpod yaml file](/_docs/assets/Solution-Commit-Git-1.png)
 
 ![updating gitpod yaml file](/_docs/assets/Solution-Commit-Git-2.png)
+
+### Error Access to Budget with newly created account
+
+After the creation of a new AWS account and give it the admin right, I cannot access to the budget and the billing 
+
+![updating gitpod yaml file](/_docs/assets/Error-Access-Budget.png)
+
+The solution was to activate the access to IAM as demonstrated below 
+
+![updating gitpod yaml file](/_docs/assets/Solution-Access-Budget.png)
