@@ -30,3 +30,34 @@ I used the site **https://app.diagrams.net/** which is equivalent the **LucidCha
 ![updating gitpod yaml file](/_docs/assets/Logical-Architectual-Diagram.png)
 
 [My Lucid Charts Share Link](https://drive.google.com/file/d/1n3HTL8rRq_rgvO2wbpiHUlAeBtYNLwVn/view?usp=sharing)
+
+## Example of Referncing a file in the codebase
+
+Example of me of referencing a file in my repo in the links below :
+
+[Budget JSON File](https://github.com/Jimb2k/aws-bootcamp-cruddur-2023/blob/main/aws/json/budget.json)
+
+[Alarm JSON File](https://github.com/Jimb2k/aws-bootcamp-cruddur-2023/blob/main/aws/json/alarm-config.json)
+
+[Notification JSON File](https://github.com/Jimb2k/aws-bootcamp-cruddur-2023/blob/main/aws/json/budget-notifications-with-subscribers.json)
+
+### Example of json notification file
+
+```json
+[
+    {
+        "Notification": {
+            "ComparisonOperator": "GREATER_THAN",
+            "NotificationType": "ACTUAL",
+            "Threshold": 80,
+            "ThresholdType": "PERCENTAGE"
+        },
+        "Subscribers": [
+            {
+                "Address": "j.tajjar@gmail.com",
+                "SubscriptionType": "EMAIL"
+            }
+        ]
+    }
+]
+```
