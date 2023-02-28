@@ -63,3 +63,15 @@ Example of me of referencing a file in my repo in the links below :
 ```
 
 ## Difficulties
+
+### Error commiting to main via Gitpod
+
+I faced an isse when I tried to commit a modification from gitpod to github as shown below
+
+![updating gitpod yaml file](/_docs/assets/Error-Git-Commit.png)
+
+The solution was to update the Gitpod permissions to access Github
+
+![updating gitpod yaml file](/_docs/assets/Solution-Commit-Git-1.png)
+
+![updating gitpod yaml file](/_docs/assets/Solution-Commit-Git-2.png)
