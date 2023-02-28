@@ -61,3 +61,5 @@ Example of me of referencing a file in my repo in the links below :
     }
 ]
 ```
+
+## Difficulties
