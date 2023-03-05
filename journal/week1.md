@@ -39,3 +39,14 @@ A pull request was created through Snyk and I accepted it from Github --> upgrad
 With this action all the critical vulnerabilities was corrected
 
 ![Snyk status after upgrading image](/_docs/assets/Week1-Snyk-pull-request-after.png)
+
+
+### Push and tag a image to DockerHub
+
+I've built a new image and tagged in order to push it to my DockerHub
+
+![Push and Tag Image to Docker HUB](/_docs/assets/Week1-Image-push.png)
+
+The image was successfully pushed to my DockerHub
+
+![Push and Tag Image to Docker HUB](/_docs/assets/Week1-Image-DockerHub.png)
