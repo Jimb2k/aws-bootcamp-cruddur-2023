@@ -23,3 +23,19 @@ Starting Docker compose
 The application is started and working fine
 
 ![Working Application](/_docs/assets/Week1-App-Working.png)
+
+## Homework Challenges
+
+### Research best practices of Dockerfiles and attempt to implement it in your Dockerfile
+
+I've done an assessment via the free open source tool snyk, and I've found a lot of vulnerabilities
+
+![Snyk Assessment](/_docs/assets/Week1-Snyk-Assessment.png)
+
+A pull request was created through Snyk and I accepted it from Github --> upgrading image base to latest version
+
+![Snyk Pull request](/_docs/assets/Week1-Snyk-pull-request.png)
+
+With this action all the critical vulnerabilities was corrected
+
+![Snyk status after upgrading image](/_docs/assets/Week1-Snyk-pull-request-after.png)
